@@ -1,0 +1,4 @@
+C:\Users\Frank\documents\visual studio 2015\Projects\StarWarsUWP.App\StarWars.DAL\StarWars.DAL.csproj;x86
+C:\Users\Frank\documents\visual studio 2015\Projects\StarWarsUWP.App\StarWars.Domain\StarWars.Domain.csproj;x86
+C:\Users\Frank\documents\visual studio 2015\Projects\StarWarsUWP.App\StarWars.Domain\StarWars.Domain.csproj;x86
+C:\Users\Frank\documents\visual studio 2015\Projects\StarWarsUWP.App\StarWarsUWP.App\StarWarsUWP.App.csproj;x86

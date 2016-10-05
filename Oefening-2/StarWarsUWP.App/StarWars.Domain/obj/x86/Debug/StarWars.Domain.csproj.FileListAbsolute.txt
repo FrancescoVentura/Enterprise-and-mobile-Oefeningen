@@ -1,0 +1,17 @@
+c:\users\frank\documents\visual studio 2015\Projects\StarWarsUWP.App\StarWars.Domain\obj\x86\Debug\StarWars.Domain.csprojResolveAssemblyReference.cache
+c:\users\frank\documents\visual studio 2015\Projects\StarWarsUWP.App\StarWars.Domain\bin\x86\Debug\StarWars.Domain.dll
+c:\users\frank\documents\visual studio 2015\Projects\StarWarsUWP.App\StarWars.Domain\bin\x86\Debug\StarWars.Domain.pdb
+c:\users\frank\documents\visual studio 2015\Projects\StarWarsUWP.App\StarWars.Domain\bin\x86\Debug\StarWars.Domain.pri
+c:\users\frank\documents\visual studio 2015\Projects\StarWarsUWP.App\StarWars.Domain\obj\x86\Debug\StarWars.Domain.dll
+c:\users\frank\documents\visual studio 2015\Projects\StarWarsUWP.App\StarWars.Domain\obj\x86\Debug\StarWars.Domain.pdb
+c:\users\frank\documents\visual studio 2015\Projects\StarWarsUWP.App\StarWars.Domain\obj\x86\Debug\priconfig.xml
+c:\users\frank\documents\visual studio 2015\Projects\StarWarsUWP.App\StarWars.Domain\obj\x86\Debug\priconfig.xml.intermediate
+c:\users\frank\documents\visual studio 2015\Projects\StarWarsUWP.App\StarWars.Domain\obj\x86\Debug\layout.resfiles
+c:\users\frank\documents\visual studio 2015\Projects\StarWarsUWP.App\StarWars.Domain\obj\x86\Debug\layout.resfiles.intermediate
+c:\users\frank\documents\visual studio 2015\Projects\StarWarsUWP.App\StarWars.Domain\obj\x86\Debug\resources.resfiles
+c:\users\frank\documents\visual studio 2015\Projects\StarWarsUWP.App\StarWars.Domain\obj\x86\Debug\resources.resfiles.intermediate
+c:\users\frank\documents\visual studio 2015\Projects\StarWarsUWP.App\StarWars.Domain\obj\x86\Debug\pri.resfiles
+c:\users\frank\documents\visual studio 2015\Projects\StarWarsUWP.App\StarWars.Domain\obj\x86\Debug\pri.resfiles.intermediate
+c:\users\frank\documents\visual studio 2015\Projects\StarWarsUWP.App\StarWars.Domain\obj\x86\Debug\qualifiers.txt
+c:\users\frank\documents\visual studio 2015\Projects\StarWarsUWP.App\StarWars.Domain\obj\x86\Debug\qualifiers.txt.intermediate
+c:\users\frank\documents\visual studio 2015\Projects\StarWarsUWP.App\StarWars.Domain\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt

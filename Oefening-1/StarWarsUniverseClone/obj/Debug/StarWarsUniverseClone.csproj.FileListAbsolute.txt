@@ -1,0 +1,14 @@
+c:\users\frank\documents\visual studio 2015\Projects\StarWarsUniverseClone\bin\Debug\StarWarsUniverseClone.exe.config
+C:\Users\Frank\documents\visual studio 2015\Projects\StarWarsUniverseClone\bin\Debug\StarWarsUniverseClone.exe
+C:\Users\Frank\documents\visual studio 2015\Projects\StarWarsUniverseClone\bin\Debug\StarWarsUniverseClone.pdb
+C:\Users\Frank\documents\visual studio 2015\Projects\StarWarsUniverseClone\bin\Debug\EntityFramework.dll
+C:\Users\Frank\documents\visual studio 2015\Projects\StarWarsUniverseClone\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Frank\documents\visual studio 2015\Projects\StarWarsUniverseClone\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Frank\documents\visual studio 2015\Projects\StarWarsUniverseClone\bin\Debug\StarWarsUniverse.Model.dll
+C:\Users\Frank\documents\visual studio 2015\Projects\StarWarsUniverseClone\bin\Debug\StarWarsUniverse.Model.pdb
+C:\Users\Frank\documents\visual studio 2015\Projects\StarWarsUniverseClone\bin\Debug\EntityFramework.xml
+C:\Users\Frank\documents\visual studio 2015\Projects\StarWarsUniverseClone\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Frank\documents\visual studio 2015\Projects\StarWarsUniverseClone\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Frank\documents\visual studio 2015\Projects\StarWarsUniverseClone\obj\Debug\StarWarsUniverseClone.csprojResolveAssemblyReference.cache
+C:\Users\Frank\documents\visual studio 2015\Projects\StarWarsUniverseClone\obj\Debug\StarWarsUniverseClone.exe
+C:\Users\Frank\documents\visual studio 2015\Projects\StarWarsUniverseClone\obj\Debug\StarWarsUniverseClone.pdb
