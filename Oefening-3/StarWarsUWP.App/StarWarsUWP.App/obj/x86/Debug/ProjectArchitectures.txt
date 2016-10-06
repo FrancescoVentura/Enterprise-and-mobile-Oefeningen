@@ -1,0 +1,4 @@
+C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWars.DAL\StarWars.DAL.csproj;x86
+C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWars.Domain\StarWars.Domain.csproj;x86
+C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWars.Domain\StarWars.Domain.csproj;x86
+C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\StarWarsUWP.App.csproj;x86

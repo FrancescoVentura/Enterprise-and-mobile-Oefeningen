@@ -1,0 +1,17 @@
+﻿<Application
+    x:Class="StarWarsUWP.App.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:StarWarsUWP.App"
+    xmlns:l="using:StarWarsUWP.App.Converters"
+    RequestedTheme="Light">
+    <Application.Resources>
+        <ResourceDictionary>
+            <local:ViewModelLocator x:Key="mainViewModelLocator"/>
+            <l:RomanNumberConverter x:Key="RomanNumberConvert"/>
+            <l:DateConverter x:Key="DateConverter"/>
+            <l:PosterConverter x:Key="PosterConverter"/>
+        </ResourceDictionary>
+   </Application.Resources>
+</Application>
+
