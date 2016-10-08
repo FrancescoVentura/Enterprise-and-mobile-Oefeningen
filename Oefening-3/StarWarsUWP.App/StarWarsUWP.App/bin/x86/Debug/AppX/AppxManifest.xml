@@ -33,6 +33,29 @@
   <Capabilities>
     <Capability Name="internetClient" />
   </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Microsoft.Xaml.Interactions.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Xaml.Interactions.Media.ControlStoryboardAction" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xaml.Interactions.Media.PlaySoundAction" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xaml.Interactions.Core.IncrementalUpdateBehavior" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xaml.Interactions.Core.NavigateToPageAction" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xaml.Interactions.Core.EventTriggerBehavior" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xaml.Interactions.Core.InvokeCommandAction" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xaml.Interactions.Core.GoToStateAction" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Microsoft.Xaml.Interactivity.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Xaml.Interactivity.BehaviorCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xaml.Interactivity.VisualStateUtilities" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xaml.Interactivity.ActionCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Xaml.Interactivity.Interaction" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
   <build:Metadata>
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
     <build:Item Name="VisualStudio" Version="14.0" />

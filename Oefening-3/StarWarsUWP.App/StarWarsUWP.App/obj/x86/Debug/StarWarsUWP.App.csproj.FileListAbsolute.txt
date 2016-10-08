@@ -199,6 +199,7 @@ C:\Users\Frank\documents\visual studio 2015\Projects\StarWarsUWP.App\StarWarsUWP
 C:\Users\Frank\documents\visual studio 2015\Projects\StarWarsUWP.App\StarWarsUWP.App\bin\x86\Debug\StarWars.DAL.pdb
 C:\Users\Frank\documents\visual studio 2015\Projects\StarWarsUWP.App\StarWarsUWP.App\bin\x86\Debug\StarWars.DAL.pri
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\bin\x86\Debug\App.xbf
+C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\bin\x86\Debug\View\StarWarsMainView.xbf
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\bin\x86\Debug\StarWarsUWP.App.xr.xml
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\bin\x86\Debug\StarWarsUWP.App.exe
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\bin\x86\Debug\StarWarsUWP.App.pdb
@@ -222,6 +223,12 @@ C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\Star
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\bin\x86\Debug\System.dll
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\bin\x86\Debug\Microsoft.VisualBasic.dll
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\bin\x86\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\bin\x86\Debug\Microsoft.Xaml.Interactions.dll
+C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\bin\x86\Debug\Microsoft.Xaml.Interactions.pri
+C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\bin\x86\Debug\Microsoft.Xaml.Interactivity.dll
+C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\bin\x86\Debug\Microsoft.Xaml.Interactivity.pri
+C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\bin\x86\Debug\Microsoft.Xaml.Interactions.winmd
+C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\bin\x86\Debug\Microsoft.Xaml.Interactivity.winmd
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\bin\x86\Debug\Newtonsoft.Json.dll
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\bin\x86\Debug\System.Private.DataContractSerialization.dll
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\bin\x86\Debug\System.AppContext.dll
@@ -320,9 +327,13 @@ C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\Star
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\obj\x86\Debug\StarWarsUWP.App.csprojResolveAssemblyReference.cache
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\obj\x86\Debug\App.g.i.cs
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\obj\x86\Debug\App.g.cs
+C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\obj\x86\Debug\View\StarWarsMainView.g.i.cs
+C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\obj\x86\Debug\View\StarWarsMainView.g.cs
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\obj\x86\Debug\XamlTypeInfo.g.cs
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\obj\x86\Debug\App.xaml
+C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\obj\x86\Debug\View\StarWarsMainView.xaml
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\obj\x86\Debug\App.xbf
+C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\obj\x86\Debug\View\StarWarsMainView.xbf
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\obj\x86\Debug\XamlSaveStateFile.xml
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\obj\x86\Debug\StarWarsUWP.App.exe
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\obj\x86\Debug\StarWarsUWP.App.pdb
@@ -392,9 +403,6 @@ C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\Star
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\obj\x86\Debug\qualifiers.txt
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\obj\x86\Debug\Microsoft.Xaml.Interactions.pri.xml
+C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\obj\x86\Debug\Microsoft.Xaml.Interactivity.pri.xml
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\obj\x86\Debug\ProjectArchitectures.txt
-C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\bin\x86\Debug\View\StarWarsMainView.xbf
-C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\obj\x86\Debug\View\StarWarsMainView.g.i.cs
-C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\obj\x86\Debug\View\StarWarsMainView.g.cs
-C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\obj\x86\Debug\View\StarWarsMainView.xaml
-C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWarsUWP.App\obj\x86\Debug\View\StarWarsMainView.xbf

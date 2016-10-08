@@ -132,25 +132,71 @@ namespace StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[8];
+            _typeNameTable = new string[31];
             _typeNameTable[0] = "StarWarsUWP.App.ViewModelLocator";
             _typeNameTable[1] = "Object";
             _typeNameTable[2] = "StarWarsUWP.App.Converters.RomanNumberConverter";
             _typeNameTable[3] = "StarWarsUWP.App.Converters.DateConverter";
             _typeNameTable[4] = "StarWarsUWP.App.Converters.PosterConverter";
-            _typeNameTable[5] = "StarWarsUWP.App.View.StarWarsMainView";
-            _typeNameTable[6] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[7] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[5] = "Microsoft.Xaml.Interactivity.Interaction";
+            _typeNameTable[6] = "Microsoft.Xaml.Interactivity.BehaviorCollection";
+            _typeNameTable[7] = "Windows.UI.Xaml.DependencyObjectCollection";
+            _typeNameTable[8] = "Windows.UI.Xaml.DependencyObject";
+            _typeNameTable[9] = "Microsoft.Xaml.Interactions.Core.EventTriggerBehavior";
+            _typeNameTable[10] = "Microsoft.Xaml.Interactivity.ActionCollection";
+            _typeNameTable[11] = "String";
+            _typeNameTable[12] = "Microsoft.Xaml.Interactions.Core.InvokeCommandAction";
+            _typeNameTable[13] = "System.Windows.Input.ICommand";
+            _typeNameTable[14] = "Windows.UI.Xaml.Data.IValueConverter";
+            _typeNameTable[15] = "StarWarsUWP.App.View.StarWarsMainView";
+            _typeNameTable[16] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[17] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[18] = "Microsoft.Xaml.Interactions.Media.ControlStoryboardAction";
+            _typeNameTable[19] = "Microsoft.Xaml.Interactions.Media.ControlStoryboardOption";
+            _typeNameTable[20] = "System.Enum";
+            _typeNameTable[21] = "System.ValueType";
+            _typeNameTable[22] = "Windows.UI.Xaml.Media.Animation.Storyboard";
+            _typeNameTable[23] = "Microsoft.Xaml.Interactions.Core.GoToStateAction";
+            _typeNameTable[24] = "Boolean";
+            _typeNameTable[25] = "Windows.UI.Xaml.FrameworkElement";
+            _typeNameTable[26] = "Microsoft.Xaml.Interactions.Core.IncrementalUpdateBehavior";
+            _typeNameTable[27] = "Int32";
+            _typeNameTable[28] = "Microsoft.Xaml.Interactions.Core.NavigateToPageAction";
+            _typeNameTable[29] = "Microsoft.Xaml.Interactions.Media.PlaySoundAction";
+            _typeNameTable[30] = "Double";
 
-            _typeTable = new global::System.Type[8];
+            _typeTable = new global::System.Type[31];
             _typeTable[0] = typeof(global::StarWarsUWP.App.ViewModelLocator);
             _typeTable[1] = typeof(global::System.Object);
             _typeTable[2] = typeof(global::StarWarsUWP.App.Converters.RomanNumberConverter);
             _typeTable[3] = typeof(global::StarWarsUWP.App.Converters.DateConverter);
             _typeTable[4] = typeof(global::StarWarsUWP.App.Converters.PosterConverter);
-            _typeTable[5] = typeof(global::StarWarsUWP.App.View.StarWarsMainView);
-            _typeTable[6] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[7] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[5] = typeof(global::Microsoft.Xaml.Interactivity.Interaction);
+            _typeTable[6] = typeof(global::Microsoft.Xaml.Interactivity.BehaviorCollection);
+            _typeTable[7] = typeof(global::Windows.UI.Xaml.DependencyObjectCollection);
+            _typeTable[8] = typeof(global::Windows.UI.Xaml.DependencyObject);
+            _typeTable[9] = typeof(global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior);
+            _typeTable[10] = typeof(global::Microsoft.Xaml.Interactivity.ActionCollection);
+            _typeTable[11] = typeof(global::System.String);
+            _typeTable[12] = typeof(global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction);
+            _typeTable[13] = typeof(global::System.Windows.Input.ICommand);
+            _typeTable[14] = typeof(global::Windows.UI.Xaml.Data.IValueConverter);
+            _typeTable[15] = typeof(global::StarWarsUWP.App.View.StarWarsMainView);
+            _typeTable[16] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[17] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[18] = typeof(global::Microsoft.Xaml.Interactions.Media.ControlStoryboardAction);
+            _typeTable[19] = typeof(global::Microsoft.Xaml.Interactions.Media.ControlStoryboardOption);
+            _typeTable[20] = typeof(global::System.Enum);
+            _typeTable[21] = typeof(global::System.ValueType);
+            _typeTable[22] = typeof(global::Windows.UI.Xaml.Media.Animation.Storyboard);
+            _typeTable[23] = typeof(global::Microsoft.Xaml.Interactions.Core.GoToStateAction);
+            _typeTable[24] = typeof(global::System.Boolean);
+            _typeTable[25] = typeof(global::Windows.UI.Xaml.FrameworkElement);
+            _typeTable[26] = typeof(global::Microsoft.Xaml.Interactions.Core.IncrementalUpdateBehavior);
+            _typeTable[27] = typeof(global::System.Int32);
+            _typeTable[28] = typeof(global::Microsoft.Xaml.Interactions.Core.NavigateToPageAction);
+            _typeTable[29] = typeof(global::Microsoft.Xaml.Interactions.Media.PlaySoundAction);
+            _typeTable[30] = typeof(global::System.Double);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -189,7 +235,28 @@ namespace StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo
         private object Activate_2_RomanNumberConverter() { return new global::StarWarsUWP.App.Converters.RomanNumberConverter(); }
         private object Activate_3_DateConverter() { return new global::StarWarsUWP.App.Converters.DateConverter(); }
         private object Activate_4_PosterConverter() { return new global::StarWarsUWP.App.Converters.PosterConverter(); }
-        private object Activate_5_StarWarsMainView() { return new global::StarWarsUWP.App.View.StarWarsMainView(); }
+        private object Activate_6_BehaviorCollection() { return new global::Microsoft.Xaml.Interactivity.BehaviorCollection(); }
+        private object Activate_9_EventTriggerBehavior() { return new global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior(); }
+        private object Activate_10_ActionCollection() { return new global::Microsoft.Xaml.Interactivity.ActionCollection(); }
+        private object Activate_12_InvokeCommandAction() { return new global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction(); }
+        private object Activate_15_StarWarsMainView() { return new global::StarWarsUWP.App.View.StarWarsMainView(); }
+        private object Activate_18_ControlStoryboardAction() { return new global::Microsoft.Xaml.Interactions.Media.ControlStoryboardAction(); }
+        private object Activate_23_GoToStateAction() { return new global::Microsoft.Xaml.Interactions.Core.GoToStateAction(); }
+        private object Activate_26_IncrementalUpdateBehavior() { return new global::Microsoft.Xaml.Interactions.Core.IncrementalUpdateBehavior(); }
+        private object Activate_28_NavigateToPageAction() { return new global::Microsoft.Xaml.Interactions.Core.NavigateToPageAction(); }
+        private object Activate_29_PlaySoundAction() { return new global::Microsoft.Xaml.Interactions.Media.PlaySoundAction(); }
+        private void VectorAdd_6_BehaviorCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.DependencyObject>)instance;
+            var newItem = (global::Windows.UI.Xaml.DependencyObject)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_10_ActionCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.DependencyObject>)instance;
+            var newItem = (global::Windows.UI.Xaml.DependencyObject)item;
+            collection.Add(newItem);
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -233,18 +300,172 @@ namespace StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 5:   //  StarWarsUWP.App.View.StarWarsMainView
+            case 5:   //  Microsoft.Xaml.Interactivity.Interaction
+                userType = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.AddMemberName("Behaviors");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 6:   //  Microsoft.Xaml.Interactivity.BehaviorCollection
+                userType = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObjectCollection"));
+                userType.CollectionAdd = VectorAdd_6_BehaviorCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 7:   //  Windows.UI.Xaml.DependencyObjectCollection
+                xamlType = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 8:   //  Windows.UI.Xaml.DependencyObject
+                xamlType = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 9:   //  Microsoft.Xaml.Interactions.Core.EventTriggerBehavior
+                userType = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_9_EventTriggerBehavior;
+                userType.SetContentPropertyName("Microsoft.Xaml.Interactions.Core.EventTriggerBehavior.Actions");
+                userType.AddMemberName("Actions");
+                userType.AddMemberName("EventName");
+                userType.AddMemberName("SourceObject");
+                userType.AddMemberName("AssociatedObject");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 10:   //  Microsoft.Xaml.Interactivity.ActionCollection
+                userType = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObjectCollection"));
+                userType.CollectionAdd = VectorAdd_10_ActionCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 11:   //  String
+                xamlType = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 12:   //  Microsoft.Xaml.Interactions.Core.InvokeCommandAction
+                userType = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_12_InvokeCommandAction;
+                userType.AddMemberName("Command");
+                userType.AddMemberName("InputConverterLanguage");
+                userType.AddMemberName("InputConverterParameter");
+                userType.AddMemberName("InputConverter");
+                userType.AddMemberName("CommandParameter");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 13:   //  System.Windows.Input.ICommand
+                userType = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 14:   //  Windows.UI.Xaml.Data.IValueConverter
+                xamlType = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 15:   //  StarWarsUWP.App.View.StarWarsMainView
                 userType = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_StarWarsMainView;
+                userType.Activator = Activate_15_StarWarsMainView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 6:   //  Windows.UI.Xaml.Controls.Page
+            case 16:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 7:   //  Windows.UI.Xaml.Controls.UserControl
+            case 17:   //  Windows.UI.Xaml.Controls.UserControl
+                xamlType = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 18:   //  Microsoft.Xaml.Interactions.Media.ControlStoryboardAction
+                userType = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_18_ControlStoryboardAction;
+                userType.AddMemberName("ControlStoryboardOption");
+                userType.AddMemberName("Storyboard");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 19:   //  Microsoft.Xaml.Interactions.Media.ControlStoryboardOption
+                userType = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Play", global::Microsoft.Xaml.Interactions.Media.ControlStoryboardOption.Play);
+                userType.AddEnumValue("Stop", global::Microsoft.Xaml.Interactions.Media.ControlStoryboardOption.Stop);
+                userType.AddEnumValue("TogglePlayPause", global::Microsoft.Xaml.Interactions.Media.ControlStoryboardOption.TogglePlayPause);
+                userType.AddEnumValue("Pause", global::Microsoft.Xaml.Interactions.Media.ControlStoryboardOption.Pause);
+                userType.AddEnumValue("Resume", global::Microsoft.Xaml.Interactions.Media.ControlStoryboardOption.Resume);
+                userType.AddEnumValue("SkipToFill", global::Microsoft.Xaml.Interactions.Media.ControlStoryboardOption.SkipToFill);
+                xamlType = userType;
+                break;
+
+            case 20:   //  System.Enum
+                userType = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                xamlType = userType;
+                break;
+
+            case 21:   //  System.ValueType
+                userType = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                xamlType = userType;
+                break;
+
+            case 22:   //  Windows.UI.Xaml.Media.Animation.Storyboard
+                xamlType = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 23:   //  Microsoft.Xaml.Interactions.Core.GoToStateAction
+                userType = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_23_GoToStateAction;
+                userType.AddMemberName("UseTransitions");
+                userType.AddMemberName("StateName");
+                userType.AddMemberName("TargetObject");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 24:   //  Boolean
+                xamlType = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 25:   //  Windows.UI.Xaml.FrameworkElement
+                xamlType = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 26:   //  Microsoft.Xaml.Interactions.Core.IncrementalUpdateBehavior
+                userType = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_26_IncrementalUpdateBehavior;
+                userType.AddMemberName("Phase");
+                userType.AddMemberName("AssociatedObject");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 27:   //  Int32
+                xamlType = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 28:   //  Microsoft.Xaml.Interactions.Core.NavigateToPageAction
+                userType = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_28_NavigateToPageAction;
+                userType.AddMemberName("TargetPage");
+                userType.AddMemberName("Parameter");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 29:   //  Microsoft.Xaml.Interactions.Media.PlaySoundAction
+                userType = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_29_PlaySoundAction;
+                userType.AddMemberName("Volume");
+                userType.AddMemberName("Source");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 30:   //  Double
                 xamlType = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
@@ -252,11 +473,354 @@ namespace StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo
         }
 
 
+        private object get_0_Interaction_Behaviors(object instance)
+        {
+            return global::Microsoft.Xaml.Interactivity.Interaction.GetBehaviors((global::Windows.UI.Xaml.DependencyObject)instance);
+        }
+        private void set_0_Interaction_Behaviors(object instance, object Value)
+        {
+            global::Microsoft.Xaml.Interactivity.Interaction.SetBehaviors((global::Windows.UI.Xaml.DependencyObject)instance, (global::Microsoft.Xaml.Interactivity.BehaviorCollection)Value);
+        }
+        private object get_1_EventTriggerBehavior_Actions(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior)instance;
+            return that.Actions;
+        }
+        private object get_2_EventTriggerBehavior_EventName(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior)instance;
+            return that.EventName;
+        }
+        private void set_2_EventTriggerBehavior_EventName(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior)instance;
+            that.EventName = (global::System.String)Value;
+        }
+        private object get_3_EventTriggerBehavior_SourceObject(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior)instance;
+            return that.SourceObject;
+        }
+        private void set_3_EventTriggerBehavior_SourceObject(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior)instance;
+            that.SourceObject = (global::System.Object)Value;
+        }
+        private object get_4_EventTriggerBehavior_AssociatedObject(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior)instance;
+            return that.AssociatedObject;
+        }
+        private object get_5_InvokeCommandAction_Command(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            return that.Command;
+        }
+        private void set_5_InvokeCommandAction_Command(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            that.Command = (global::System.Windows.Input.ICommand)Value;
+        }
+        private object get_6_InvokeCommandAction_InputConverterLanguage(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            return that.InputConverterLanguage;
+        }
+        private void set_6_InvokeCommandAction_InputConverterLanguage(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            that.InputConverterLanguage = (global::System.String)Value;
+        }
+        private object get_7_InvokeCommandAction_InputConverterParameter(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            return that.InputConverterParameter;
+        }
+        private void set_7_InvokeCommandAction_InputConverterParameter(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            that.InputConverterParameter = (global::System.Object)Value;
+        }
+        private object get_8_InvokeCommandAction_InputConverter(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            return that.InputConverter;
+        }
+        private void set_8_InvokeCommandAction_InputConverter(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            that.InputConverter = (global::Windows.UI.Xaml.Data.IValueConverter)Value;
+        }
+        private object get_9_InvokeCommandAction_CommandParameter(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            return that.CommandParameter;
+        }
+        private void set_9_InvokeCommandAction_CommandParameter(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
+            that.CommandParameter = (global::System.Object)Value;
+        }
+        private object get_10_ControlStoryboardAction_ControlStoryboardOption(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Media.ControlStoryboardAction)instance;
+            return that.ControlStoryboardOption;
+        }
+        private void set_10_ControlStoryboardAction_ControlStoryboardOption(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Media.ControlStoryboardAction)instance;
+            that.ControlStoryboardOption = (global::Microsoft.Xaml.Interactions.Media.ControlStoryboardOption)Value;
+        }
+        private object get_11_ControlStoryboardAction_Storyboard(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Media.ControlStoryboardAction)instance;
+            return that.Storyboard;
+        }
+        private void set_11_ControlStoryboardAction_Storyboard(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Media.ControlStoryboardAction)instance;
+            that.Storyboard = (global::Windows.UI.Xaml.Media.Animation.Storyboard)Value;
+        }
+        private object get_12_GoToStateAction_UseTransitions(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.GoToStateAction)instance;
+            return that.UseTransitions;
+        }
+        private void set_12_GoToStateAction_UseTransitions(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.GoToStateAction)instance;
+            that.UseTransitions = (global::System.Boolean)Value;
+        }
+        private object get_13_GoToStateAction_StateName(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.GoToStateAction)instance;
+            return that.StateName;
+        }
+        private void set_13_GoToStateAction_StateName(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.GoToStateAction)instance;
+            that.StateName = (global::System.String)Value;
+        }
+        private object get_14_GoToStateAction_TargetObject(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.GoToStateAction)instance;
+            return that.TargetObject;
+        }
+        private void set_14_GoToStateAction_TargetObject(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.GoToStateAction)instance;
+            that.TargetObject = (global::Windows.UI.Xaml.FrameworkElement)Value;
+        }
+        private object get_15_IncrementalUpdateBehavior_Phase(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.IncrementalUpdateBehavior)instance;
+            return that.Phase;
+        }
+        private void set_15_IncrementalUpdateBehavior_Phase(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.IncrementalUpdateBehavior)instance;
+            that.Phase = (global::System.Int32)Value;
+        }
+        private object get_16_IncrementalUpdateBehavior_AssociatedObject(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.IncrementalUpdateBehavior)instance;
+            return that.AssociatedObject;
+        }
+        private object get_17_NavigateToPageAction_TargetPage(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.NavigateToPageAction)instance;
+            return that.TargetPage;
+        }
+        private void set_17_NavigateToPageAction_TargetPage(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.NavigateToPageAction)instance;
+            that.TargetPage = (global::System.String)Value;
+        }
+        private object get_18_NavigateToPageAction_Parameter(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.NavigateToPageAction)instance;
+            return that.Parameter;
+        }
+        private void set_18_NavigateToPageAction_Parameter(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Core.NavigateToPageAction)instance;
+            that.Parameter = (global::System.Object)Value;
+        }
+        private object get_19_PlaySoundAction_Volume(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Media.PlaySoundAction)instance;
+            return that.Volume;
+        }
+        private void set_19_PlaySoundAction_Volume(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Media.PlaySoundAction)instance;
+            that.Volume = (global::System.Double)Value;
+        }
+        private object get_20_PlaySoundAction_Source(object instance)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Media.PlaySoundAction)instance;
+            return that.Source;
+        }
+        private void set_20_PlaySoundAction_Source(object instance, object Value)
+        {
+            var that = (global::Microsoft.Xaml.Interactions.Media.PlaySoundAction)instance;
+            that.Source = (global::System.String)Value;
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
             global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlMember xamlMember = null;
-            // No Local Properties
+            global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType userType;
+
+            switch (longMemberName)
+            {
+            case "Microsoft.Xaml.Interactivity.Interaction.Behaviors":
+                userType = (global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactivity.Interaction");
+                xamlMember = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlMember(this, "Behaviors", "Microsoft.Xaml.Interactivity.BehaviorCollection");
+                xamlMember.SetTargetTypeName("Windows.UI.Xaml.DependencyObject");
+                xamlMember.SetIsAttachable();
+                xamlMember.Getter = get_0_Interaction_Behaviors;
+                xamlMember.Setter = set_0_Interaction_Behaviors;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.EventTriggerBehavior.Actions":
+                userType = (global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.EventTriggerBehavior");
+                xamlMember = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlMember(this, "Actions", "Microsoft.Xaml.Interactivity.ActionCollection");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_1_EventTriggerBehavior_Actions;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.Xaml.Interactions.Core.EventTriggerBehavior.EventName":
+                userType = (global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.EventTriggerBehavior");
+                xamlMember = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlMember(this, "EventName", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_2_EventTriggerBehavior_EventName;
+                xamlMember.Setter = set_2_EventTriggerBehavior_EventName;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.EventTriggerBehavior.SourceObject":
+                userType = (global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.EventTriggerBehavior");
+                xamlMember = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlMember(this, "SourceObject", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_3_EventTriggerBehavior_SourceObject;
+                xamlMember.Setter = set_3_EventTriggerBehavior_SourceObject;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.EventTriggerBehavior.AssociatedObject":
+                userType = (global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.EventTriggerBehavior");
+                xamlMember = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlMember(this, "AssociatedObject", "Windows.UI.Xaml.DependencyObject");
+                xamlMember.Getter = get_4_EventTriggerBehavior_AssociatedObject;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.Xaml.Interactions.Core.InvokeCommandAction.Command":
+                userType = (global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.InvokeCommandAction");
+                xamlMember = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlMember(this, "Command", "System.Windows.Input.ICommand");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_5_InvokeCommandAction_Command;
+                xamlMember.Setter = set_5_InvokeCommandAction_Command;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.InvokeCommandAction.InputConverterLanguage":
+                userType = (global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.InvokeCommandAction");
+                xamlMember = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlMember(this, "InputConverterLanguage", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_6_InvokeCommandAction_InputConverterLanguage;
+                xamlMember.Setter = set_6_InvokeCommandAction_InputConverterLanguage;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.InvokeCommandAction.InputConverterParameter":
+                userType = (global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.InvokeCommandAction");
+                xamlMember = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlMember(this, "InputConverterParameter", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_7_InvokeCommandAction_InputConverterParameter;
+                xamlMember.Setter = set_7_InvokeCommandAction_InputConverterParameter;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.InvokeCommandAction.InputConverter":
+                userType = (global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.InvokeCommandAction");
+                xamlMember = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlMember(this, "InputConverter", "Windows.UI.Xaml.Data.IValueConverter");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_8_InvokeCommandAction_InputConverter;
+                xamlMember.Setter = set_8_InvokeCommandAction_InputConverter;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.InvokeCommandAction.CommandParameter":
+                userType = (global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.InvokeCommandAction");
+                xamlMember = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlMember(this, "CommandParameter", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_9_InvokeCommandAction_CommandParameter;
+                xamlMember.Setter = set_9_InvokeCommandAction_CommandParameter;
+                break;
+            case "Microsoft.Xaml.Interactions.Media.ControlStoryboardAction.ControlStoryboardOption":
+                userType = (global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Media.ControlStoryboardAction");
+                xamlMember = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlMember(this, "ControlStoryboardOption", "Microsoft.Xaml.Interactions.Media.ControlStoryboardOption");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_10_ControlStoryboardAction_ControlStoryboardOption;
+                xamlMember.Setter = set_10_ControlStoryboardAction_ControlStoryboardOption;
+                break;
+            case "Microsoft.Xaml.Interactions.Media.ControlStoryboardAction.Storyboard":
+                userType = (global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Media.ControlStoryboardAction");
+                xamlMember = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlMember(this, "Storyboard", "Windows.UI.Xaml.Media.Animation.Storyboard");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_11_ControlStoryboardAction_Storyboard;
+                xamlMember.Setter = set_11_ControlStoryboardAction_Storyboard;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.GoToStateAction.UseTransitions":
+                userType = (global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.GoToStateAction");
+                xamlMember = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlMember(this, "UseTransitions", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_12_GoToStateAction_UseTransitions;
+                xamlMember.Setter = set_12_GoToStateAction_UseTransitions;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.GoToStateAction.StateName":
+                userType = (global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.GoToStateAction");
+                xamlMember = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlMember(this, "StateName", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_13_GoToStateAction_StateName;
+                xamlMember.Setter = set_13_GoToStateAction_StateName;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.GoToStateAction.TargetObject":
+                userType = (global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.GoToStateAction");
+                xamlMember = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlMember(this, "TargetObject", "Windows.UI.Xaml.FrameworkElement");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_14_GoToStateAction_TargetObject;
+                xamlMember.Setter = set_14_GoToStateAction_TargetObject;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.IncrementalUpdateBehavior.Phase":
+                userType = (global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.IncrementalUpdateBehavior");
+                xamlMember = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlMember(this, "Phase", "Int32");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_15_IncrementalUpdateBehavior_Phase;
+                xamlMember.Setter = set_15_IncrementalUpdateBehavior_Phase;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.IncrementalUpdateBehavior.AssociatedObject":
+                userType = (global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.IncrementalUpdateBehavior");
+                xamlMember = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlMember(this, "AssociatedObject", "Windows.UI.Xaml.DependencyObject");
+                xamlMember.Getter = get_16_IncrementalUpdateBehavior_AssociatedObject;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.Xaml.Interactions.Core.NavigateToPageAction.TargetPage":
+                userType = (global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.NavigateToPageAction");
+                xamlMember = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlMember(this, "TargetPage", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_17_NavigateToPageAction_TargetPage;
+                xamlMember.Setter = set_17_NavigateToPageAction_TargetPage;
+                break;
+            case "Microsoft.Xaml.Interactions.Core.NavigateToPageAction.Parameter":
+                userType = (global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.NavigateToPageAction");
+                xamlMember = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlMember(this, "Parameter", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_18_NavigateToPageAction_Parameter;
+                xamlMember.Setter = set_18_NavigateToPageAction_Parameter;
+                break;
+            case "Microsoft.Xaml.Interactions.Media.PlaySoundAction.Volume":
+                userType = (global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Media.PlaySoundAction");
+                xamlMember = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlMember(this, "Volume", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_19_PlaySoundAction_Volume;
+                xamlMember.Setter = set_19_PlaySoundAction_Volume;
+                break;
+            case "Microsoft.Xaml.Interactions.Media.PlaySoundAction.Source":
+                userType = (global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Media.PlaySoundAction");
+                xamlMember = new global::StarWarsUWP.App.StarWarsUWP_App_XamlTypeInfo.XamlMember(this, "Source", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_20_PlaySoundAction_Source;
+                xamlMember.Setter = set_20_PlaySoundAction_Source;
+                break;
+            }
             return xamlMember;
         }
     }

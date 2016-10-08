@@ -5,6 +5,10 @@
   </Roots.Interfaces>
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="StarWarsMoviesViewModel" />
+    <RootPropertyPathName Name="LoadCommand" />
+    <RootPropertyPathName Name="RateDownCommand" />
+    <RootPropertyPathName Name="CanRateUp" />
+    <RootPropertyPathName Name="RateUpCommand" />
     <RootPropertyPathName Name="SelectedMovie" />
     <RootPropertyPathName Name="Rating" />
     <RootPropertyPathName Name="Producer" />
@@ -28,6 +32,10 @@
       <RootProperty Name="DataContext" />
       <RootProperty Name="Content" />
     </RootType>
+    <RootType FullName="Microsoft.Xaml.Interactivity.Interaction">
+      <RootMethod Name="GetBehaviors" />
+      <RootMethod Name="SetBehaviors" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="Source" />
       <RootProperty Name="Path" />
@@ -35,6 +43,13 @@
       <RootProperty Name="Converter" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="Microsoft.Xaml.Interactions.Core.EventTriggerBehavior">
+      <RootProperty Name="EventName" />
+      <RootProperty Name="Actions" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.Interactions.Core.InvokeCommandAction">
+      <RootProperty Name="Command" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Background" />
       <RootProperty Name="ColumnDefinitions" />
@@ -99,7 +114,8 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
-      <RootProperty Name="Margin" />
+      <RootProperty Name="IsEnabled" />
+      <RootProperty Name="Command" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />

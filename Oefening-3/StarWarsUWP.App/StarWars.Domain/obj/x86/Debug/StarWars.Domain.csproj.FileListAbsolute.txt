@@ -18,7 +18,6 @@ c:\users\frank\documents\visual studio 2015\Projects\StarWarsUWP.App\StarWars.Do
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWars.Domain\bin\x86\Debug\StarWars.Domain.dll
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWars.Domain\bin\x86\Debug\StarWars.Domain.pdb
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWars.Domain\bin\x86\Debug\StarWars.Domain.pri
-C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWars.Domain\obj\x86\Debug\StarWars.Domain.csprojResolveAssemblyReference.cache
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWars.Domain\obj\x86\Debug\StarWars.Domain.dll
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWars.Domain\obj\x86\Debug\StarWars.Domain.pdb
 C:\Users\Frank\Documents\GitHub\Enterprise-and-mobile-Oefeningen\Oefening-3\StarWarsUWP.App\StarWars.Domain\obj\x86\Debug\priconfig.xml

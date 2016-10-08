@@ -100,6 +100,8 @@
     <Compile Include="Converters\RomanNumberConverter.cs" />
     <Compile Include="Extentions\ListExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility\CustomCommand.cs" />
+    <Compile Include="Utility\Messenger.cs" />
     <Compile Include="ViewModelLocator.cs" />
     <Compile Include="ViewModel\StarWarsMoviesViewModel.cs" />
     <Compile Include="View\StarWarsMainView.xaml.cs">
@@ -149,7 +151,6 @@
       <Name>StarWars.Domain</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
